@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.qty .count {
+  color: #000;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 0 2px;
+  min-width: 25px;
+  margin-top: 5px;
+  text-align: center;
+}
+.qty .plus {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  width: 15px;
+  height: 15px;
+  font: 15px/1 Arial, sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+.qty .minus {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  width: 15px;
+  height: 15px;
+  font: 15px/1 Arial, sans-serif;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: 5px;
+  background-clip: padding-box;
+}
+div {
+  text-align: left;
+}
+.minus:hover {
+  background-color: #717fe0 !important;
+}
+.plus:hover {
+  background-color: #717fe0 !important;
+}
+/*Prevent text selection*/
+span {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+input {
+  border: 0;
+  width: 2%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:disabled {
+  background-color: white;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.fa-spinner {
+  position: fixed;
+  z-index: 1031; /* High z-index so it is on top of the page */
+  top: 50%;
+  right: 50%; /* or: left: 50%; */
+  margin-top: -..px; /* half of the elements height */
+  margin-right: -..px; /* half of the elements widht */
+}
